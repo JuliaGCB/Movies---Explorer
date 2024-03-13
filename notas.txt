@@ -1,0 +1,17 @@
+>>>>> Comandos <<<<<<
+
+npm init -y : Perguntas sobre o projeto
+npm install express --save : Instalando o express para processar as requicições
+node src/server.js
+npm install nodemon --save-dev : Para não preciar ficar parando a aplicação sempre
+
+>>>>> PASSOS <<<<<<<
+
+1 npm init -y : Perguntas sobre o projeto
+2 npm install express --save : Instalando o express para processar as requicições
+3 Criar o arquivo .gitignore para ignorar o node_modules
+4 Criar a pasta src
+5 Colocar o express no arquivo raiz 
+6 testar a porta com o comando node src/server.js
+7 add o script no package.json "start"
+8 Começar a criar o sistema de rotas com o get

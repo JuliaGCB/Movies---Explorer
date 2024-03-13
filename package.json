@@ -1,20 +1,26 @@
 {
   "name": "movies---explorer",
   "version": "1.0.0",
-  "description": "Project created para praticar habilidades de programação",
+  "description": "Project created para praticar habilidades de programação com node e banco de dados.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuliaGCB/Movies---Explorer.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Julia Campos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JuliaGCB/Movies---Explorer/issues"
   },
-  "homepage": "https://github.com/JuliaGCB/Movies---Explorer#readme"
+  "homepage": "https://github.com/JuliaGCB/Movies---Explorer#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
